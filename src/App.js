@@ -168,5 +168,6 @@ function VehicleItem({ idx, vehicle_name, vehicle_type="car", lat, lng, range })
 }
 
 export default GoogleApiWrapper({
-  apiKey: (GOOGLE_API_KEY)
+  apiKey: (GOOGLE_API_KEY),
+  language: 'pl',
 })(App);
