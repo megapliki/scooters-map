@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  float: left; 
+}
+
+.App-header {
+  background-color: #dedede;
+  height: 80px;
+  padding: 20px;
+  color: #111111;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+div.vehicles-map {
+  display: block;
+  float: left;
+  width: calc(100% - 300px) !important;
+  margin: 0px;
+  padding: 0px;
+  position: absolute !important;
+}
+
+ul.vehicles-list {
+  display: block;
+  float: right;
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+}
+
+li.vehicle-item {
+  display: block;
+  clear: both;
+  padding: 11px;
+  margin: 0px;
+  overflow:hidden;
+  width: calc(100% - 24px);
+  cursor: pointer;
+}
+
+li.vehicle-item:nth-child(even) {
+	background-color: #efefef;
+}
+
+li.vehicle-item:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+li.vehicle-item:hover {
+  background-color: #ccffde;
+}
+
+img.map-marker {
+  display: block;
+  float: left;
+  width: 64px;
+  height: 64px;
+}
+img.map-icon {
+  display: block;
+  float: left;
+  width: 63px;
+  height: 86px;
+  margin-right: 15px;
+}
+
+div.content,
+li.vehicle-item div.content {	
+	display: block;
+	float: right;
+	width: 210px;
+	text-align: left;
+}
+
+h2.header { 
+  margin: 5px 0px 5px 0px;
+  font-size: 16px;
+}
+
+h3.header { 
+  margin: 0px 0px 5px 0px;
+  font-size: 16px;
+}
+
+div.content .position {
+	font-size: 12px;
+}
+
+div.content .range {
+	font-size: 12px;	
+}
+
+div.content button {
+	margin: 5px 0px;	
+}
